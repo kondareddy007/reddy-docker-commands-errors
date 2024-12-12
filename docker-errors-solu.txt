@@ -1,3 +1,8 @@
 ############# Docker error and sollutions in centos ##########
 1)Cannot connect to the Docker daemon at unix:/var/run/docker.sock. Is the docker daemon running?
-Solu: systemctl start docker 
+  Solu: #systemctl start docker 
+2)Git Error unable to push the code because below error
+  Error: error: failed to push some refs to 'https://github.com/kondareddy007/reddy-docker.git'
+  Sol: #git pull --rebase origin master
+       #git push origin master  ---> after enter above commands not getting error. Code is pushed
+3)
