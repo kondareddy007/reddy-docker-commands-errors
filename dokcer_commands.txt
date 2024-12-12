@@ -1,0 +1,18 @@
+1)Coomad for start the docker.
+  #systemctl status docker
+2)Command for see the images
+  # docker images
+3)Command for list of all images or comatanies with id?
+  #docker images -a -q
+  #docker ps -a -q
+  ** Please stop and delete all conatners before delete image. other wise you are not able to delete image it will throw the error.
+  error: Error response from daemon: conflict: unable to delete 66f8bdd3810c (must be forced) - image is being used by stopped container c12c7247a42b
+4)How to delete all images in single command?
+  #docker images -a -q
+  #docker rmi `docker images -a -q`
+5)How to delete all conatniers in single command?
+   #dokcer ps -a -q
+   #docker rm `docker ps -a -q`
+6how pull the images?
+  #docker pull nginx
+
