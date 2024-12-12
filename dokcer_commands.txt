@@ -15,4 +15,8 @@
    #docker rm `docker ps -a -q`
 6how pull the images?
   #docker pull nginx
+7)How run a comatainer one command?
+  #docker run -d -p 8000:80 --name reddy nginx
+  -d -->detach mode i will run background
+  -
 
